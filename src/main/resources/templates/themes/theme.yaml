@@ -1,0 +1,39 @@
+id: Garden
+name: Butterfly
+author:
+  name: Garden
+  website: https://vtsoft.cn
+description: Halo主题 butterfly
+logo: https://dhjdd.cn/logo
+website: https://vtsoft.cn
+repo: https://gitee.com/vtsoft_cn/halo-open-source-blog
+cover: https://gitee.com/dhjdd/Timo/raw/master/1642841299688.png
+version: 1.0.0
+require: ^1.4.11
+# 文章页 meta 变量
+postMetaField:
+  - enable_aside
+  - enable_comment
+  - enable_collect_check
+  - enable_toc
+  - toc_depth
+  - img_align
+  - img_max_width
+  - enable_copy
+  - enable_donate
+  - enable_share
+  - enable_like
+  - code_theme
+  - enable_mathjax
+  - enable_mermaid
+
+# 自定义页 meta 变量
+sheetMetaField:
+  - enable_aside
+  - enable_page_meta
+  - enable_collect_check
+  - enable_comment
+  - enable_mathjax
+  - enable_mermaid
+  - img_align
+  - show_thumbnail
